@@ -1,0 +1,4 @@
+string sensor
+---
+uint8 status
+float32 value
