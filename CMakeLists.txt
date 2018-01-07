@@ -54,6 +54,7 @@ add_message_files(
   diaphragm.msg
   HSL.msg
   ledRing.msg
+  Move.msg
 )
 
 ## Generate services in the 'srv' folder
