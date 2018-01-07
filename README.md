@@ -25,4 +25,23 @@ location: uint8
   * This movement consists of 2 stages for the hot drinks as it needs to switch from horizontal to vertical movement
 * 3: presentation
   * Both for hot and cold the upper-most position where the drink sticks out through the presentation hole
-  
+
+## ledRing
+ring: uint8
+* 1: hot
+* 2: cold
+
+mode: uint8
+* ?
+
+param: uint16
+* ?
+
+color: HSL
+* See [HSL](#HSL)
+
+## HSL
+Defines color for led ring
+hue: uint8
+sat: uint8
+val: uint8
