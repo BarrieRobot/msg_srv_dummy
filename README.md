@@ -1,20 +1,20 @@
 barrieduino
 
 ## activateOrder.msg
-order_type: uint8
+### order_type: uint8
 - 0: drop cup
 - 1: hot drink
 - 2: cold drink
 
-selection: uint8
+### selection: uint8
 - TBD
 
 ## Move.msg
-lane: uint8
+### lane: uint8
 - 1: hot drink lane
 - 2: cold drink lane
 
-location: uint8
+### location: uint8
 * 0: zero location
   * hot: under cup dispenser
   * cold: can drop height (before the move down motion)
@@ -27,21 +27,21 @@ location: uint8
   * Both for hot and cold the upper-most position where the drink sticks out through the presentation hole
 
 ## ledRing
-ring: uint8
+### ring: uint8
 * 1: hot
 * 2: cold
-
-mode: uint8
+### mode: uint8
 * ?
-
-param: uint16
+### param: uint16
 * ?
-
-color: HSL
+### color: HSL
 * See [HSL](#HSL)
 
 ## HSL
 Defines color for led ring
-hue: uint8
-sat: uint8
-val: uint8
+### hue: uint8
+* hue value 0-255
+### sat: uint8
+* saturation value 0-255
+### val: uint8
+
