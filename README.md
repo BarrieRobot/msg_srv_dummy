@@ -32,13 +32,13 @@ barrieduino
 * 2: cold
 ### mode: uint8
 * Selects the mode in which the LED ring operates
- * 0: off
- * 1: progress mode
- * 2: pulsate/waiting mode
- * ...: TBD
+  * 0: off
+  * 1: progress mode
+  * 2: pulsate/waiting mode
+  * ...: TBD
 ### param: uint16
 * Defines a paramameter to be used in a certain mode
- * Progress mode: value 0-1000, sets progress promillage
+  * Progress mode: value 0-1000, sets progress promillage
 ### color: HSL
 * See [HSL](#HSL)
 
