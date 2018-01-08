@@ -58,3 +58,18 @@ Defines color for led ring
 ### position: bool
 * true: open
 * false: closed
+
+## sensorRequest
+### sensor: string
+* `temperature`: temperature inside cooler
+* `weight`:
+* `spill`:
+* `laser-0`:
+* `laser-1`:
+* `cold-stock-0`:
+* `cold-stock-1`:
+* `cold-stock-2`:
+### return - status: uint8
+*
+### return - value: float32
+* Value as measured by the requested sensor
