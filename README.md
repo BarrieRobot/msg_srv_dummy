@@ -45,3 +45,10 @@ Defines color for led ring
 * saturation value 0-255
 ### val: uint8
 
+## diaphragm
+### diaphragm: uint8
+* 1: hot
+* 2: cold
+### position: bool
+* true: open
+* false: closed
